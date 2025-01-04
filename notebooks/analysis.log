@@ -1,0 +1,144 @@
+2025-01-03 09:15:43,198 - INFO - Starting the customer purchasing behavior analysis.
+2025-01-03 09:15:43,761 - INFO - Loaded training data successfully.
+2025-01-03 09:15:43,786 - INFO - Loaded test data successfully.
+2025-01-03 09:15:43,789 - INFO - Loaded store data successfully.
+2025-01-03 09:15:43,936 - INFO - Merged training data with store data.
+2025-01-03 09:15:43,937 - INFO - First few rows of merged data:
+   Store  DayOfWeek        Date  Sales  Customers  Open  Promo StateHoliday  \
+0      1          5  2015-07-31   5263        555     1      1            0   
+1      2          5  2015-07-31   6064        625     1      1            0   
+2      3          5  2015-07-31   8314        821     1      1            0   
+3      4          5  2015-07-31  13995       1498     1      1            0   
+4      5          5  2015-07-31   4822        559     1      1            0   
+
+   SchoolHoliday StoreType Assortment  CompetitionDistance  \
+0              1         c          a               1270.0   
+1              1         a          a                570.0   
+2              1         a          a              14130.0   
+3              1         c          c                620.0   
+4              1         a          a              29910.0   
+
+   CompetitionOpenSinceMonth  CompetitionOpenSinceYear  Promo2  \
+0                        9.0                    2008.0       0   
+1                       11.0                    2007.0       1   
+2                       12.0                    2006.0       1   
+3                        9.0                    2009.0       0   
+4                        4.0                    2015.0       0   
+
+   Promo2SinceWeek  Promo2SinceYear    PromoInterval  
+0              NaN              NaN              NaN  
+1             13.0           2010.0  Jan,Apr,Jul,Oct  
+2             14.0           2011.0  Jan,Apr,Jul,Oct  
+3              NaN              NaN              NaN  
+4              NaN              NaN              NaN  
+2025-01-03 09:16:06,978 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-03 09:16:07,311 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-03 09:16:07,546 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-03 09:16:07,564 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-03 09:17:34,080 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-03 09:17:34,411 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-04 04:43:16,941 - INFO - Starting the customer purchasing behavior analysis.
+2025-01-04 04:43:17,318 - INFO - Loaded training data successfully.
+2025-01-04 04:43:17,333 - INFO - Loaded test data successfully.
+2025-01-04 04:43:17,337 - INFO - Loaded store data successfully.
+2025-01-04 04:43:17,432 - INFO - Merged training data with store data.
+2025-01-04 04:43:17,433 - INFO - First few rows of merged data:
+   Store  DayOfWeek        Date  Sales  Customers  Open  Promo StateHoliday  \
+0      1          5  2015-07-31   5263        555     1      1            0   
+1      2          5  2015-07-31   6064        625     1      1            0   
+2      3          5  2015-07-31   8314        821     1      1            0   
+3      4          5  2015-07-31  13995       1498     1      1            0   
+4      5          5  2015-07-31   4822        559     1      1            0   
+
+   SchoolHoliday StoreType Assortment  CompetitionDistance  \
+0              1         c          a               1270.0   
+1              1         a          a                570.0   
+2              1         a          a              14130.0   
+3              1         c          c                620.0   
+4              1         a          a              29910.0   
+
+   CompetitionOpenSinceMonth  CompetitionOpenSinceYear  Promo2  \
+0                        9.0                    2008.0       0   
+1                       11.0                    2007.0       1   
+2                       12.0                    2006.0       1   
+3                        9.0                    2009.0       0   
+4                        4.0                    2015.0       0   
+
+   Promo2SinceWeek  Promo2SinceYear    PromoInterval  
+0              NaN              NaN              NaN  
+1             13.0           2010.0  Jan,Apr,Jul,Oct  
+2             14.0           2011.0  Jan,Apr,Jul,Oct  
+3              NaN              NaN              NaN  
+4              NaN              NaN              NaN  
+2025-01-04 04:45:23,233 - INFO - Missing values in training data:
+Series([], dtype: int64)
+2025-01-04 04:45:23,235 - INFO - Missing values in test data:
+Open    11
+dtype: int64
+2025-01-04 04:45:23,406 - INFO - Duplicates in training data: 0
+2025-01-04 04:45:23,406 - INFO - Duplicates in test data: 0
+2025-01-04 04:45:23,429 - INFO - Dropped rows with missing target variable 'Sales'.
+2025-01-04 04:45:23,486 - INFO - Removed outliers from training data.
+2025-01-04 04:45:23,487 - INFO - Data types in training data:
+Store             int64
+DayOfWeek         int64
+Date             object
+Sales             int64
+Customers         int64
+Open              int64
+Promo             int64
+StateHoliday     object
+SchoolHoliday     int64
+dtype: object
+2025-01-04 04:45:23,488 - INFO - Data types in test data:
+Id                 int64
+Store              int64
+DayOfWeek          int64
+Date              object
+Open             float64
+Promo              int64
+StateHoliday      object
+SchoolHoliday      int64
+dtype: object
+2025-01-04 04:45:23,552 - INFO - Converted 'Date' columns to datetime format.
+2025-01-04 04:52:38,721 - INFO - Model training completed.
+2025-01-04 04:52:49,336 - INFO - Mean Absolute Error: 432.92454627138403
+2025-01-04 05:00:21,821 - INFO - Loaded training data successfully.
+2025-01-04 05:00:21,835 - INFO - Loaded test data successfully.
+2025-01-04 05:00:21,836 - INFO - Train Data Columns: ['Store', 'DayOfWeek', 'Date', 'Sales', 'Customers', 'Open', 'Promo', 'StateHoliday', 'SchoolHoliday']
+2025-01-04 05:00:21,836 - INFO - Test Data Columns: ['Id', 'Store', 'DayOfWeek', 'Date', 'Open', 'Promo', 'StateHoliday', 'SchoolHoliday']
+2025-01-04 05:00:28,750 - INFO - Model training completed.
+2025-01-04 05:00:29,100 - INFO - Mean Absolute Error: 504.2116047817068
+2025-01-04 05:01:46,485 - INFO - Loaded training data successfully.
+2025-01-04 05:01:46,504 - INFO - Loaded test data successfully.
+2025-01-04 05:01:46,504 - INFO - Train Data Columns: ['Store', 'DayOfWeek', 'Date', 'Sales', 'Customers', 'Open', 'Promo', 'StateHoliday', 'SchoolHoliday']
+2025-01-04 05:01:46,504 - INFO - Test Data Columns: ['Id', 'Store', 'DayOfWeek', 'Date', 'Open', 'Promo', 'StateHoliday', 'SchoolHoliday']
+2025-01-04 05:01:53,247 - INFO - Model training completed.
+2025-01-04 05:01:53,629 - INFO - Mean Absolute Error: 504.2116047817068
+2025-01-04 05:06:36,708 - INFO - Loaded training data successfully.
+2025-01-04 05:06:36,723 - INFO - Loaded test data successfully.
+2025-01-04 05:06:36,724 - INFO - Train Data Columns: ['Store', 'DayOfWeek', 'Date', 'Sales', 'Customers', 'Open', 'Promo', 'StateHoliday', 'SchoolHoliday']
+2025-01-04 05:06:36,724 - INFO - Test Data Columns: ['Id', 'Store', 'DayOfWeek', 'Date', 'Open', 'Promo', 'StateHoliday', 'SchoolHoliday']
+2025-01-04 05:06:43,335 - INFO - Model training completed.
+2025-01-04 05:06:43,656 - INFO - Mean Absolute Error: 504.2116047817068
+2025-01-04 05:06:43,656 - INFO - Aligning test_data columns with training features...
+2025-01-04 05:06:43,674 - INFO - Predictions on test data completed.
+2025-01-04 05:10:58,507 - INFO - Feature ranking:
+2025-01-04 05:10:58,510 - INFO - 1. Feature Customers: 0.8593956082784543
+2025-01-04 05:10:58,510 - INFO - 2. Feature Store: 0.08347832156289478
+2025-01-04 05:10:58,511 - INFO - 3. Feature Promo: 0.023800927126496174
+2025-01-04 05:10:58,511 - INFO - 4. Feature DayOfWeek: 0.010243384231901572
+2025-01-04 05:10:58,511 - INFO - 5. Feature Day: 0.009496600047198758
+2025-01-04 05:10:58,512 - INFO - 6. Feature Month: 0.009065300551879634
+2025-01-04 05:10:58,512 - INFO - 7. Feature Year: 0.0029221462567496906
+2025-01-04 05:10:58,512 - INFO - 8. Feature SchoolHoliday: 0.0014628888437189422
+2025-01-04 05:10:58,513 - INFO - 9. Feature StateHoliday_a: 9.337340821547443e-05
+2025-01-04 05:10:58,513 - INFO - 10. Feature StateHoliday_b: 2.8243138569375305e-05
+2025-01-04 05:10:58,513 - INFO - 11. Feature StateHoliday_c: 1.3206553921371948e-05
+2025-01-04 05:10:58,513 - INFO - 12. Feature Open: 0.0
+2025-01-04 05:52:45,596 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-04 05:52:45,833 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-04 06:02:35,583 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-04 06:02:35,826 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-04 06:02:35,946 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-04 06:02:35,957 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
