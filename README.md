@@ -1,7 +1,7 @@
 # Task 2 - Prediction of Store Sales
 
 ## Objective
-Prediction of sales is the central task in this challenge. You want to predict daily sales in various stores up to 6 weeks ahead of time. This will help the company plan ahead of time.
+Prediction of sales is the central task in this challenge. I want to predict daily sales in various stores up to 6 weeks ahead of time. This will help the company plan ahead of time.
 
 ## Steps
 ### 2.1 Preprocessing
