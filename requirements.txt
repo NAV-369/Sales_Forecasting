@@ -1,7 +1,9 @@
-# Required libraries for Exploratory Data Analysis and Machine Learning
 pandas
 numpy
 matplotlib
 seaborn
 scikit-learn
-logger
+logging
+uvicorn
+fastapi
+joblib
