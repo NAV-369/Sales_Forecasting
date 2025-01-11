@@ -1,32 +1,15 @@
-Customer Behavior and Store Sales Prediction Project
+# Customer Behavior and Store Sales Prediction Project
 
-Overview
+## Overview
 
-This project explores customer purchasing behavior and uses machine learning and deep learning techniques to predict store sales. The project is divided into three main tasks:
+### This project explores customer purchasing behavior and uses machine learning and deep learning techniques to predict store sales. The project is divided into three main tasks:
 	1.	Exploration of customer purchasing behavior - Analyzing customer data to uncover patterns and trends.
 	2.	Prediction of store sales - Using machine learning models to forecast sales for the next 6 weeks.
 	3.	Model serving via API - Creating a REST API to serve predictions from the trained models.
 
-Table of Contents
-	1.	Task 1 - Exploration of Customer Purchasing Behavior
-	•	Data Cleaning and Preparation
-	•	Exploratory Data Analysis (EDA)
-	•	Data Visualization
-	•	Logging
-	2.	Task 2 - Prediction of Store Sales
-	•	Data Preprocessing
-	•	Building Machine Learning Models with Sklearn
-	•	Loss Function Selection
-	•	Post Prediction Analysis
-	•	Serialize Models
-	•	Building a Deep Learning Model
-	3.	Task 3 - Model Serving API
-	•	Framework Selection
-	•	Loading the Model
-	•	API Endpoints
-	•	Model Deployment
 
-Task 1 - Exploration of Customer Purchasing Behavior
+
+### Task 1 - Exploration of Customer Purchasing Behavior
 
 Data Cleaning and Preparation
 	•	Clean the dataset by detecting and handling missing data and outliers.
@@ -54,7 +37,7 @@ Logging
 
 Use the logging library to track steps taken during the analysis for reproducibility and traceability.
 
-Task 2 - Prediction of Store Sales
+### Task 2 - Prediction of Store Sales
 
 Data Preprocessing
 	•	Convert non-numeric columns into numeric form.
@@ -86,7 +69,7 @@ Deep Learning Model
 	•	Check for autocorrelation and partial autocorrelation in the data.
 	•	Scale the data to the range (-1, 1) and build an LSTM regression model to predict future sales.
 
-Task 3 - Model Serving API
+### Task 3 - Model Serving API
 
 Framework Selection
 
@@ -154,6 +137,6 @@ python app.py
 
 Use a tool like Postman to send POST requests to /predict and receive predictions.
 
-Conclusion
+## Conclusion
 
 This project provides valuable insights into customer purchasing behavior and forecasts store sales to aid decision-making. By leveraging both machine learning and deep learning techniques, along with a real-time model serving API, the company can optimize store operations and marketing strategies.
