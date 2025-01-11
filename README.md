@@ -1,5 +1,6 @@
-# Rossmann Pharmaceuticals Sales Forecasting
+# Task 1 - Exploration of customer purchasing behavior
 
+# Rossmann Pharmaceuticals Sales Forecasting
 ## Project Overview
 This project focuses on analyzing customer purchasing behavior and forecasting sales for Rossmann Pharmaceuticals. By leveraging data-driven insights, the goal is to enhance sales forecasting accuracy, which is crucial for effective inventory management and strategic planning.
 
